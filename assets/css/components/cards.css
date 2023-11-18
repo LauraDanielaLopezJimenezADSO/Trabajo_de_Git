@@ -1,0 +1,44 @@
+/********************************
+1. Card
+*********************************/
+.card {
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  min-width: 0;
+  background: var(--white);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  padding: var(--size-05);
+  margin: 0 0 var(--size-08);
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--card-border);
+  padding: var(--size-05);
+}
+
+.card__title {
+  display: block;
+  font-size: var(--size-1);
+  font-weight: 700;
+  line-height: var(--size-1-5);
+  text-decoration: none;
+}
+
+.card__body {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  padding: var(--size-05);
+}
+
+.card__content {}
+
+.card__text {
+  line-height: var(--size-1-4);
+  font-size: var(--size-09);
+  margin-bottom: var(--size-05);
+}

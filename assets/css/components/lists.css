@@ -1,0 +1,32 @@
+.list {
+  display: block;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.list__item {
+  color: var(--color-gray);
+  border-bottom: 1px solid var(--card-border);
+}
+
+.list__item:last-child {
+  border-bottom: 0;
+}
+
+.list__link {
+  display: block;
+  text-decoration: none;
+  padding: var(--size-08);
+  font-size: var(--size-09);
+  color: var(--color-gray);
+}
+
+.list__link:hover {
+  background: var(--bg-hover);
+}
+
+.list__link--secundary {
+  font-size: var(--size-08);
+  padding-top: var(--size-05);
+}

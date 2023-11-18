@@ -1,0 +1,242 @@
+/****************************
+1. Colores
+****************************/
+.color-primary {
+  color: var(--primary);
+}
+
+.color-black {
+  color: var(--black);
+}
+
+.color-blue {
+  color: var(--blue);
+}
+
+.color-gray {
+  color: var(--gray);
+}
+
+.color-red {
+  color: var(--red);
+}
+
+.color-green {
+  color: var(--green);
+}
+
+.color-white {
+  color: var(--white);
+}
+
+/************************************
+2. Fondos
+************************************/
+.bg-primary {
+  background: var(--bg-primary);
+}
+
+.bg-black {
+  background: var(--bg-black);
+}
+
+.bg-gray {
+  background: var(--bg-gray);
+}
+
+.bg-blue {
+  background: var(--bg-blue);
+}
+
+.bg-red {
+  background: var(--bg-red);
+}
+
+.bg-green {
+  background: var(--bg-green);
+}
+
+.bg-white {
+  background: var(--bg-white);
+}
+
+/**********************************
+3. bordes
+************************************/
+.boder-primary {
+  border: solid 1px var(--primary);
+}
+
+.boder-black {
+  border: solid 1px var(--black);
+}
+
+.boder-gray {
+  border: solid 1px var(--gray);
+}
+
+.boder-red {
+  border: solid 1px var(--red);
+}
+
+.boder-blue {
+  border: solid 1px var(--blue);
+}
+
+.boder-green {
+  border: solid 1px var(--green);
+}
+
+.boder-white {
+  border: solid 1px var(--white);
+}
+
+.border-none {
+  border: 0;
+}
+
+.border--bottom {
+  align-self: center;
+  width: 90%;
+  height: 1px;
+  box-shadow: 0px 1px 1px var(--divider);
+}
+
+/**********************************
+4. margenes
+**********************************/
+
+.mr-1 {
+  margin-right: var(--size-05);
+}
+
+.mr-2 {
+  margin-right: var(--size-1);
+}
+
+.ml-1 {
+  margin-left: var(--size-05);
+}
+
+.ml-2 {
+  margin-left: var(--size-1);
+}
+
+.mt-1 {
+  margin-top: var(--size-05);
+}
+
+.mt-2 {
+  margin-top: var(--size-1);
+}
+
+.mb-1 {
+  margin-bottom: var(--size-05);
+}
+
+.mb-2 {
+  margin-bottom: var(--size-1);
+}
+
+.mx-1 {
+  margin-left: var(--size-05);
+  margin-right: var(--size-05);
+}
+
+.mx-2 {
+  margin-left: var(--size-1);
+  margin-right: var(--size-1);
+}
+
+.my-1 {
+  margin-top: var(--size-05);
+  margin-bottom: var(--size-05);
+}
+
+.my-2 {
+  margin-top: var(--size-1);
+  margin-bottom: var(--size-1);
+}
+
+.m1 {
+  margin: var(--size-05);
+}
+
+.m2 {
+  margin: var(--size-1);
+}
+
+/**********************************
+5. padding
+**********************************/
+.p-1 {
+  padding: var(--size-05);
+}
+
+.p-2 {
+  padding: var(--size-1);
+}
+
+.dispaly1 {
+  font-size: var(--size-1);
+}
+
+.display2 {
+  font-size: var(--size-1-5);
+}
+
+.display3 {
+  font-size: var(--size-2);
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.decoration-none {
+  text-decoration: none;
+}
+
+
+/********************************
+Pegajoso
+*********************************/
+.sticky {
+  position: sticky;
+  top: var(--header-height);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-1 {
+  gap: var(--size-05)
+}
+
+.gap-2 {
+  gap: var(--size-1)
+}
+
+.gap-3 {
+  gap: var(--size-1-5)
+}
+
+.gap-4 {
+  gap: var(--size-2)
+}
+
+.center {
+  justify-content: center;
+}
