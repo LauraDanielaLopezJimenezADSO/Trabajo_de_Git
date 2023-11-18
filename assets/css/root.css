@@ -1,0 +1,66 @@
+:root {
+
+  --primary: rgb(10, 105, 255);
+  --black: rgb(3, 3, 3);
+  --gray: rgb(64, 64, 64);
+  --blue: rgb(8, 100, 197);
+  --red: rgb(255, 0, 51);
+  --green: rgb(76, 132, 53);
+  --white: rgb(255, 255, 255);
+
+  --bg-primary: var(--primary);
+  --bg-black: var(--black);
+  --bg-gray: var(--gray);
+  --bg-red: var(--red);
+  --bg-blue: var(--blue);
+  --bg-green: var(--green);
+  --bg-white: var(--white);
+  --bg-body: rgb(245, 245, 245);
+
+
+  --bg-hover: rgba(64, 64, 64, 0.06);
+  --color-primary: var(--primary);
+  --color-gray: rgb(64, 64, 64);
+  --card-border: rgba(23, 23, 23, 0.06);
+  --box-shadow: rgba(0, 0, 0, 0.1);
+  --text-boder: rgb(212, 212, 212);
+  --link-border: rgb(44, 44, 46);
+  --link-border-primary: var(--primary);
+  --header-height: 60px;
+  --padding-layout: 70px;
+  --max-width: 1240px;
+
+  --size-05: 0.5rem;
+  --size-08: 0.8rem;
+  --size-09: 0.9rem;
+  --size-1: 1rem;
+  --size-1-4: 1.4rem;
+  --size-1-5: 1.5rem;
+  --size-2: 2rem;
+
+  --radius: 0.4rem;
+  --radius-large: 0.7rem;
+  --radius-xl: 2rem;
+  --divider: rgb(229, 229, 229);
+
+  --font-open-sans: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-open-sans);
+  height: 100%;
+}
+
+body {
+  font-size: var(--size-1);
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-body)
+}

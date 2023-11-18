@@ -1,0 +1,25 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--color-gray);
+}
+
+.tags__link {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  padding: var(--size-05);
+  text-decoration: none;
+  font-size: var(--size-08);
+  color: var(--color-gray);
+}
+
+.tags__link:hover {
+  background: var(--bg-hover);
+  border-radius: var(--radius);
+}
+
+.tags__span {
+  color: var(--color-primary);
+}
