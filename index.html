@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/helpers.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!-- Contenedor para el cabecero de la plantilla -->
+  <header class="header">
+    <div class="header__container">
+      <span>
+        <button class="header__hamburger display2 hidden">
+          <i class="fa fa-navicon"></i>
+        </button>
+      </span>
+      <a href="#" class="header__logo">
+        <img class="header__img mx-2" src="assets/img/logo.png" alt="logo">
+      </a>
+      <div class="header__search">
+        <form action="" role="search">
+          <div class="fields">
+            <input type="text" class="fields__text" placeholder="Buscar...">
+            <button type="submit" class="fields__button">
+              <i class="fields__icon fa fa-search"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="header__box">
+        <nav class="header__nav gap-1">
+          <a href="#" class="btn__search display2 mr-2">
+            <i class="fa fa-search font-size-2"></i>
+          </a>
+          <a href="login.html" class="btn btn--link btn__login">Ingresar</a>
+          <a href="register.html" class="btn">Crear cuenta</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contenedor para el layout o plantilla -->
+  <div class="content-layout">
+    <!-- Contenedor para la sección de navegación -->
+    <div class="navbar">
+      <!-- Contenedor para el login - registro  -->
+      <div class="card p-2">
+        <div class="card__header">
+          <h1 class="card__title">¿Tienes una cuenta?</h1>
+        </div>
+        <div class="card__body">
+          <p class="card__text">
+            Ingresa con tus datos de usuario. Tambien puedes crear una cuenta en el botón crear cuenta.
+          </p>
+          <div class="grid gap-1">
+            <a href="login.html" class="btn btn--link justify-center mb-1">Ingresar</a>
+            <a href="register.html" class="btn">Crear cuenta</a>
+          </div>
+        </div>
+      </div>
+      <!-- Contenedor para el menu -->
+      <nav class="navigation mt-2 mb-2 sticky">
+        <ul class="list">
+          <li class="list__item border-none">
+            <a href="#" class="list__link">
+              <i class="fa fa-home mr-1"></i><span>Inicio</span>
+            </a>
+          </li>
+          <li class="list__item border-none">
+            <a href="#" class="list__link">
+              <i class="fa fa-book-open mr-1"></i><span>Guias</span>
+            </a>
+          </li>
+          <li class="list__item border-none">
+            <a href="#" class="list__link">
+              <i class="fa fa-video-camera mr-1"></i><span>Noticias</span>
+            </a>
+          </li>
+          <li class="list__item border-none">
+            <a href="#" class="list__link">
+              <i class="fa fa-tags mr-1"></i><span>Tags</span>
+            </a>
+          </li>
+          <li class="list__item border-none">
+            <a href="#" class="list__link">
+              <i class="fa fa-address-book mr-1"></i><span>Contactenos</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Sección principal de la plantilla -->
+
+    <main class="main">
+
+      <article class="card">
+        <div class="card__header">
+          <a href="#" class="card__title">
+            Titulo del post
+          </a>
+        </div>
+        <div class="card__body">
+          <div class="card__content">
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facere quam quibusdam
+              quidem possimus! Explicabo omnis, totam, exercitationem at aperiam magni quidem ullam veniam
+              impedit excepturi quia saepe adipisci dolorum?
+            </p>
+            <div class="tags">
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 1
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 2
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 3
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 4
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__header">
+          <a href="#" class="card__title">
+            Titulo del post
+          </a>
+        </div>
+        <div class="card__body">
+          <div class="card__content">
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facere quam quibusdam
+              quidem possimus! Explicabo omnis, totam, exercitationem at aperiam magni quidem ullam veniam
+              impedit excepturi quia saepe adipisci dolorum?
+            </p>
+            <div class="tags">
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 1
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 2
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 3
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 4
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__header">
+          <a href="#" class="card__title">
+            Titulo del post
+          </a>
+        </div>
+        <div class="card__body">
+          <div class="card__content">
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facere quam quibusdam
+              quidem possimus! Explicabo omnis, totam, exercitationem at aperiam magni quidem ullam veniam
+              impedit excepturi quia saepe adipisci dolorum?
+            </p>
+            <div class="tags">
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 1
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 2
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 3
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 4
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__header">
+          <a href="#" class="card__title">
+            Titulo del post
+          </a>
+        </div>
+        <div class="card__body">
+          <div class="card__content">
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facere quam quibusdam
+              quidem possimus! Explicabo omnis, totam, exercitationem at aperiam magni quidem ullam veniam
+              impedit excepturi quia saepe adipisci dolorum?
+            </p>
+            <div class="tags">
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 1
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 2
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 3
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 4
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__header">
+          <a href="#" class="card__title">
+            Titulo del post
+          </a>
+        </div>
+        <div class="card__body">
+          <div class="card__content">
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facere quam quibusdam
+              quidem possimus! Explicabo omnis, totam, exercitationem at aperiam magni quidem ullam veniam
+              impedit excepturi quia saepe adipisci dolorum?
+            </p>
+            <div class="tags">
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 1
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 2
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 3
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 4
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__header">
+          <a href="#" class="card__title">
+            Titulo del post
+          </a>
+        </div>
+        <div class="card__body">
+          <div class="card__content">
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facere quam quibusdam
+              quidem possimus! Explicabo omnis, totam, exercitationem at aperiam magni quidem ullam veniam
+              impedit excepturi quia saepe adipisci dolorum?
+            </p>
+            <div class="tags">
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 1
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 2
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 3
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 4
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__header">
+          <a href="#" class="card__title">
+            Titulo del post
+          </a>
+        </div>
+        <div class="card__body">
+          <div class="card__content">
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facere quam quibusdam
+              quidem possimus! Explicabo omnis, totam, exercitationem at aperiam magni quidem ullam veniam
+              impedit excepturi quia saepe adipisci dolorum?
+            </p>
+            <div class="tags">
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 1
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 2
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 3
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 4
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__header">
+          <a href="#" class="card__title">
+            Titulo del post
+          </a>
+        </div>
+        <div class="card__body">
+          <div class="card__content">
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facere quam quibusdam
+              quidem possimus! Explicabo omnis, totam, exercitationem at aperiam magni quidem ullam veniam
+              impedit excepturi quia saepe adipisci dolorum?
+            </p>
+            <div class="tags">
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 1
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 2
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 3
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 4
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__header">
+          <a href="#" class="card__title">
+            Titulo del post
+          </a>
+        </div>
+        <div class="card__body">
+          <div class="card__content">
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facere quam quibusdam
+              quidem possimus! Explicabo omnis, totam, exercitationem at aperiam magni quidem ullam veniam
+              impedit excepturi quia saepe adipisci dolorum?
+            </p>
+            <div class="tags">
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 1
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 2
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 3
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 4
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__header">
+          <a href="#" class="card__title">
+            Titulo del post
+          </a>
+        </div>
+        <div class="card__body">
+          <div class="card__content">
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facere quam quibusdam
+              quidem possimus! Explicabo omnis, totam, exercitationem at aperiam magni quidem ullam veniam
+              impedit excepturi quia saepe adipisci dolorum?
+            </p>
+            <div class="tags">
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 1
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 2
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 3
+              </a>
+              <a href="#" class="tags__link">
+                <span class="tags__prefix">#</span>Tag 4
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </main>
+
+    <!-- ontenedor para la sección informativa -->
+    <aside class="sidebar">
+      <section class="card">
+        <div class="card__header">
+          <h3 class="card__title">
+            Noticias
+          </h3>
+        </div>
+        <div class="card__body">
+          <ul class="list">
+            <li class="list__item">
+              <a href="#" class="list__link">
+                Lorem, ipsum dolor si
+                <div class="list__link--secundary">2023/10/14</div>
+              </a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link">
+                Adipisicing elit. Adipisci rerum mollitia aperiam!
+                <div class="list__link--secundary">2023/10/14</div>
+              </a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link">
+                Adipisicing elit. Adipisci rerum mollitia aperiam!
+                <div class="list__link--secundary">2023/10/14</div>
+              </a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link">
+                Adipisicing elit. Adipisci rerum mollitia aperiam!
+                <div class="list__link--secundary">2023/10/14</div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </aside>
+  </div>
+
+</body>
+
+</html>
