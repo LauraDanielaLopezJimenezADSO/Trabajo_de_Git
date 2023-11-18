@@ -1,0 +1,40 @@
+@media (min-width: 780px) {
+  .navbar {
+    display: block;
+  }
+
+  .content-layout {
+    grid-template-rows: auto;
+    grid-template-columns: 220px auto;
+    grid-template-areas: 'navbar main';
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .hidden {
+    display: none;
+  }
+
+  .header__search {
+    display: block;
+  }
+
+  .btn__search {
+    display: none;
+  }
+
+  .btn__login {
+    display: block;
+  }
+
+  .sidebar {
+    display: block;
+  }
+
+  .content-layout {
+    grid-template-rows: auto;
+    grid-template-columns: 240px 2fr 1fr;
+    grid-template-areas: 'navbar main sidebar';
+  }
+}
