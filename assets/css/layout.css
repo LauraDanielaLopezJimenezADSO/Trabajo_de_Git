@@ -1,0 +1,27 @@
+.content-layout {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-template-areas: 'main';
+  gap: 1rem;
+  padding-top: var(--padding-layout);
+}
+
+.navbar {
+  display: none;
+}
+
+.sidebar {
+  display: none;
+}
+
+.content-login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
