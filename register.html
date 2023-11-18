@@ -19,28 +19,33 @@
 
       <div class="card__header center border-none">
         <h1 class="card__title display2 mt-2 mb-2">
-          Ingrese al sistema
+          Registre sus datos
         </h1>
       </div>
       <div class="card__body">
-        <form action="" class="form login">
+        <form action="" class="form login" autocomplete="off">
           <div class="form__control">
-            <input type="text" class="form__input" placeholder="Usuario">
+            <input type="text" name="name" class="form__input" placeholder="Nombre">
+          </div>
+          <div class="form__control">
+            <input type="text" class="form__input" placeholder="Apellidos">
+          </div>
+          <div class="form__control">
+            <input type="text" class="form__input" placeholder="Correo electrónico">
+          </div>
+          <div class="form__control">
+            <input type="text" class="form__input" placeholder="Celular">
           </div>
           <div class="form__control">
             <input type="password" class="form__input" placeholder="Contraseña">
           </div>
           <div class="form__control">
-            <input type="checkbox" class="form__checkbox" name="remember" id="remember" value="on">
-            <label for="remember" class="form__label">¡Recordar datos!</label>
+            <input type="password" class="form__input" placeholder="Confirmar contraseña">
           </div>
           <div class="flex">
             <button class="btn btn-md">Validar datos</button>
-            <a href="#" class="decoration-none color-primary">¿Olvido su contraseña?</a>
+            <a href="#" class="decoration-none color-primary">Ya tengo usuario</a>
           </div>
-          <span class="border--bottom"></span>
-          <a href="#" class="decoration-none text-center color-primary mb-2">Registrarme en el sistema</a>
-          <a href="index.html" class="decoration-none text-center color-primary mb-2">Regresar al inicio</a>
         </form>
       </div>
 
